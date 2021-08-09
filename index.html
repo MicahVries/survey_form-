@@ -1,0 +1,87 @@
+<!DOCTYPE html >
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+ <body>
+    <header>
+        <h1 id="title">Music Survey Form </h1>
+        <p id="description" >Thank you for sharing the soundtrack to your life </p>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </header>
+    <form id="survey-form">
+      <div id="content1">
+     
+        <label id="name-label" >Name</label> <br><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name" class="box" required><br><br>
+        <label id="email-label">Email</label><br><br>
+        <input type="email" id="email" name="name" placeholder="Enter your Email" class="box" required><br><br>
+        <label id="number-label">Age</label><br><br>
+        <input type="number" id="number" name="age" placeholder="Enter your age" min="0" max="60" class="box" required><br><br>
+        <label for="name"> Which Genre are you currently listening to? </label><br><br>
+      
+
+        <div id="option1">
+            <select id="dropdown">
+                <option name="Select Your Genre">Select Genre</option>
+                <option value="Alternative">alternative</option>
+                <option value="Blues">Blues</option>
+                <option value="Country">Country</option>
+                <option value="Electronic">Electronic</option>
+                <option value="Hip Hop">Hip Hop</option>
+                <option value="Instrumental"> Instrumental</option>
+                <option value="Jazz">Jazz</option>
+                <option value="Metal">Metal</option>
+                <option value="Reggae">Raggae</option>
+            </select>
+        </div>
+             <br>
+             <label for="" id="head1">Select your Favourite Platform for music</label> <br><br>
+             <input type="radio" name="radio" class="larger" value="itunes">&nbsp&nbsp&nbspiTunes<br><br>
+             <input type="radio" name="radio" class="larger" value="Tidal">&nbsp&nbsp&nbspTidal<br><br>
+             <input type="radio" name="radio" class="larger" value="Spotify">&nbsp&nbsp&nbspSpotify<br><br>
+             <input type="radio" name="radio" class="larger" value="YouTube">&nbsp&nbsp&nbspYouTube<br><br><br>
+      
+       <div id="option2">
+             <select>
+               <option name="Select Your Artist"> Select Favourite Artist of All Time</option>
+               <option value="Micheal Jackson">Micheal Jackson</option>
+               <option value="Elvis Presley">Elvis Presley</option>
+               <option value="Madonna">Madonna</option>
+               <option value="Elton John">Elton John</option>
+               <option value="Stevie Wonder">Stevie Wonder</option>
+               <option value="Bruce Springsteen">Bruce Springsteen</option>
+               <option value="Eminem">Eminem</option>
+               <option value="David Bowie">David Bowie</option>
+               <option value="Bob Marley">Bob</option>
+            </select>
+        </div>
+        <label for="" id="head2">Which of the below instrument do you love to play</label><br><br>
+        <div id="content2">
+            <input type="checkbox" name="checkbox" class="larger" value="Piano"><label for="name">&nbsp&nbsp&nbspPiano</label> <br><br>
+            <input type="checkbox" name="checkbox" class="larger" value="Bass Guiter"><label for="name">&nbsp&nbsp&nbspBass Guitar</label><br><br>
+            <input type="checkbox" name="checkbox" class="larger" value="Saxophone"><label for="name">&nbsp&nbsp&nbspSaxophone</label><br><br>
+            <input type="checkbox" name="checkbox" class="larger" value="Flute"><label for="name">&nbsp&nbsp&nbspFlute</label><br><br>
+            <input type="checkbox" name="checkbox" class="larger" value="Electric Guitar"><label for="name">&nbsp&nbsp&nbspElectric Guitar</label><br><br>
+            <input type="checkbox" name="checkbox" class="larger" value="Drum set"><label for="name">&nbsp&nbsp&nbspDrum set</label><br><br>
+            <input type="checkbox" name="checkbox" class="larger" value="Violin"><label for="name">&nbsp&nbsp&nbspViolin</label><br><br>
+            <input type="checkbox" name="checkbox" class="larger" value="Cello"><label for="name">&nbsp&nbsp&nbspCello</label><br><br>
+            <input type="checkbox" name="checkbox" class="larger" value="Trumpet"><label for="name">&nbsp&nbsp&nbspTrumpet</label><br><br>
+            <input type="checkbox" name="checkbox" class="larger" value="Percusion"><label for="name">&nbsp&nbsp&nbspPercussion</label><br><br>
+            <input type="checkbox" name="checkbox" class="larger" value="Bowed strings"><label for="name">Bowed strings</label><br><br>
+        </div>
+
+            <label>Tell us more about the soundtrack that inspire you?</label> <br><br>
+            <textarea placeholder="Enter Your Message Here ..."></textarea> <br>
+            <button  id="submit"><h3>Submit</h3></button>
+
+
+    </form>
+
+ </body>
+</html>
